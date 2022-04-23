@@ -11,8 +11,8 @@ export default function Home() {
         <link href="/dist/output.css" rel="stylesheet" />
       </Head>
       <main className={styles.main}>
-        <div class="h-16 w-full border-b flex border-b-[#dedede] fixed z-50">
-          <div class="flex w-18 h-full border-r border-[#dedede] grid place-items-center bg-gradient-to-t from-[#f7c393] to-[#f5cba5]">
+        <div className="h-16 w-full border-b flex border-b-[#dedede] fixed z-50">
+          <div className="flex w-18 h-full border-r border-[#dedede] grid place-items-center bg-gradient-to-t from-[#f7c393] to-[#f5cba5]">
             <a href="#">
               <svg
                 id="Layer_1"
@@ -29,40 +29,40 @@ export default function Home() {
               </svg>
             </a>
           </div>
-          <div class="w-left-p border-r border-gray-100 flex bg-gradient-to-t from-[#f5c8a1] to-[#f5c89f]">
-            <h3 class="text-black font-bold p-4 pl-9 pr-0 text-xl font-serif">
+          <div className="w-left-p border-r border-gray-100 flex bg-gradient-to-t from-[#f5c8a1] to-[#f5c89f]">
+            <h3 className="text-black font-bold p-4 pl-9 pr-0 text-xl font-serif">
               WEB
             </h3>
-            <h3 class="text-white font-bold p-4 pl-0 text-xl font-serif">
+            <h3 className="text-white font-bold p-4 pl-0 text-xl font-serif">
               SITE
             </h3>
           </div>
-          <div class="flex border-r border-gray-100 w-5/12 bg-[#f8f8f8]">
-            <ul class="p-4 pl-9">
-              <li class="inline-block pr-7 font-serif text-sm hover:text-orange-300">
+          <div className="flex border-r border-gray-100 w-5/12 bg-[#f8f8f8]">
+            <ul className="p-4 pl-9">
+              <li className="inline-block pr-7 font-serif text-sm hover:text-orange-300">
                 <a href="#">Home</a>
               </li>
-              <li class="inline-block pr-7 font-serif text-sm hover:text-orange-300">
+              <li className="inline-block pr-7 font-serif text-sm hover:text-orange-300">
                 <a href="#">About As</a>
               </li>
-              <li class="inline-block pr-7 font-serif text-sm hover:text-orange-300">
+              <li className="inline-block pr-7 font-serif text-sm hover:text-orange-300">
                 <a href="#">Services</a>
               </li>
-              <li class="inline-block pr-7 font-serif text-sm hover:text-orange-300">
+              <li className="inline-block pr-7 font-serif text-sm hover:text-orange-300">
                 <a href="#">Products</a>
               </li>
-              <li class="inline-block pr-7 font-serif text-sm hover:text-orange-300">
+              <li className="inline-block pr-7 font-serif text-sm hover:text-orange-300">
                 <a href="#">Contact Us</a>
               </li>
             </ul>
           </div>
-          <div class="flex border-r w-18 grid place-items-center border-r border-l border-gray-200 bg-[#f8f8f8]">
+          <div className="flex border-r w-18 grid place-items-center border-r border-l border-gray-200 bg-[#f8f8f8]">
             <a href="#">
               <svg
                 width="25px"
                 height="25px"
                 xmlns="http://www.w3.org/2000/svg"
-                class="ionicon"
+                className="ionicon"
                 viewBox="0 0 512 512"
               >
                 <title>Search</title>
@@ -70,24 +70,19 @@ export default function Home() {
                   d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"
                   fill="none"
                   stroke="currentColor"
-                  stroke-miterlimit="10"
-                  stroke-width="32"
                 />
                 <path
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-miterlimit="10"
-                  stroke-width="32"
                   d="M338.29 338.29L448 448"
                 />
               </svg>
             </a>
           </div>
-          <div class="flex w-right-p border-r border-gray-100 grid place-items-center bg-[#f8f8f8]">
+          <div className="flex w-right-p border-r border-gray-100 grid place-items-center bg-[#f8f8f8]">
             <a href="#">
               <svg
-                class="float-left"
+                className="float-left"
                 xmlns="http://www.w3.org/2000/svg"
                 height="18px"
                 viewBox="0 0 24 24"
@@ -97,12 +92,12 @@ export default function Home() {
                 <path d="M0 0h24v24H0V0z" fill="none" />
                 <path d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
               </svg>
-              <h3 class="text-black pl-2 text-sm font-extra-light float-right">
+              <h3 className="text-black pl-2 text-sm font-extra-light float-right">
                 MY ACCOUNT
               </h3>
             </a>
           </div>
-          <div class="flex grid place-items-center w-basket pl-5 border-l bg-[#f8f8f8]">
+          <div className="flex grid place-items-center w-basket pl-5 border-l bg-[#f8f8f8]">
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -117,16 +112,16 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <main class="flex-auto flex w-full">
-          <div class="ml-52 mt-16 bg-transparent w-6/12 absolute">
+        <main className="flex-auto flex w-full">
+          <div className="ml-52 mt-16 bg-transparent w-6/12 absolute">
             <img src="metod2.png" alt="foto" />
           </div>
 
-          <aside class="w-left-f border-r bg-gradient-to-t from-[#f6af77] to-[#f4cda6]">
-            <div class="pl-6 pt-72">
+          <aside className="w-left-f border-r bg-gradient-to-t from-[#f6af77] to-[#f4cda6]">
+            <div className="pl-6 pt-72">
               <a href="#">
                 <svg
-                  class="hover:fill-white"
+                  className="hover:fill-white"
                   xmlns="http://www.w3.org/2000/svg"
                   height="30px"
                   viewBox="0 0 24 24"
@@ -139,35 +134,35 @@ export default function Home() {
               </a>
             </div>
             <a href="#">
-            <h2 class="mt-60 pl-56 hover:text-white font-serif">Next item </h2>
+            <h2 className="mt-60 pl-56 hover:text-white font-serif">Next item </h2>
             </a>
           </aside>
 
-          <section class="py-56 flex-auto bg-[#f8f8f8]">
-            <div class="ml-96 w-96">
-              <h1 class="text-2xl font-semibold">Kitchen Solid Wood</h1>
-              <p class="text-sm font-thin pt-2 pb-5">
+          <section className="py-56 flex-auto bg-[#f8f8f8]">
+            <div className="ml-96 w-96">
+              <h1 className="text-2xl font-semibold">Kitchen Solid Wood</h1>
+              <p className="text-sm font-thin pt-2 pb-5">
                 Lorem ipsum dolor sit amet, consectetur elit adipisicing . Amet
                 corporis cum delectus illum itaque modi omnis quaerat temporibus
                 totam!
               </p>
-              <span class="text-sm font-semibold">Color:</span>
-              <button class="h-6 w-6 bg-[#573c39] rounded-full border-white border-4 p-2 pb-1"></button>
-              <button class="h-6 w-6 bg-[#e5a2a4] rounded-full border-white border-4 p-2 pb-1"></button>
-              <div class="flex items-center w-full pt-5">
-                <p class="font-bold pr-12">$ 429.99</p>
-                <button class="bg-[#f68d38] h-8 w-32 text-white text-xs font-medium">
+              <span className="text-sm font-semibold">Color:</span>
+              <button className="h-6 w-6 bg-[#573c39] rounded-full border-white border-4 p-2 pb-1"></button>
+              <button className="h-6 w-6 bg-[#e5a2a4] rounded-full border-white border-4 p-2 pb-1"></button>
+              <div className="flex items-center w-full pt-5">
+                <p className="font-bold pr-12">$ 429.99</p>
+                <button className="bg-[#f68d38] h-8 w-32 text-white text-xs font-medium">
                   Add To Cart
                 </button>
               </div>
             </div>
           </section>
         </main>
-        <div class="flex bg-[#fefefe] w-full h-72">
-          <div class="h-28 w-32 pt-44 pl-56 pr-56">
-            <h2 class="text-3xl font-semibold">Trending Kitchen</h2>
-            <div class="flex w-32">
-              <button class="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6">
+        <div className="flex bg-[#fefefe] w-full h-72">
+          <div className="h-28 w-32 pt-44 pl-56 pr-56">
+            <h2 className="text-3xl font-semibold">Trending Kitchen</h2>
+            <div className="flex w-32">
+              <button className="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
@@ -179,7 +174,7 @@ export default function Home() {
                   <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z" />
                 </svg>
               </button>
-              <button class="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6 mr-3">
+              <button className="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6 mr-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
@@ -193,101 +188,101 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div class="bg-[#ffffff] border-gray-200 border w-full h-80 mt-16 flex overflow-x-auto overflow-y-hidden">
-            <div class="h-full w-[270px] h-full border-r border-gray-200 flex-0">
+          <div className="bg-[#ffffff] border-gray-200 border w-full h-80 mt-16 flex overflow-x-auto overflow-y-hidden">
+            <div className="h-full w-[270px] h-full border-r border-gray-200 flex-0">
               <img
                 src="knoxhult2.png"
                 alt="konxhult"
-                class="w-[200px] mx-auto mt-2"
+                className="w-[200px] mx-auto mt-2"
               />
-              <h3 class="text-left font-semibold text-sm mx-5">
+              <h3 className="text-left font-semibold text-sm mx-5">
                 Kitchen Solid Wood
               </h3>
-              <p class="font-thin text-gray-800 text-xs mx-5">
+              <p className="font-thin text-gray-800 text-xs mx-5">
                 Width: 220.0 cm, System Depth: 61.0 cm. Height: 220.0 cm
               </p>
-              <p class="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
-              <button class="bg-[#f68d38] h-8 w-32 text-white text-xs font-extralight mt-4 ml-32 z-30 absolute">
+              <p className="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
+              <button className="bg-[#f68d38] h-8 w-32 text-white text-xs font-extralight mt-4 ml-32 z-30 absolute">
                 Add To Cart
               </button>
             </div>
-            <div class="h-full w-[270px] border-r border-gray-200 flex-0">
+            <div className="h-full w-[270px] border-r border-gray-200 flex-0">
               <img
                 src="knoxhult.png"
                 alt="konxhult"
-                class="w-[200px] mx-auto mt-2"
+                className="w-[200px] mx-auto mt-2"
               />
-              <h3 class="text-left font-semibold text-sm mx-5">
+              <h3 className="text-left font-semibold text-sm mx-5">
                 Kitchen Solid Wood
               </h3>
-              <p class="font-thin text-gray-800 text-xs mx-5">
+              <p className="font-thin text-gray-800 text-xs mx-5">
                 Width: 220.0 cm, System Depth: 61.0 cm. Height: 220.0 cm
               </p>
-              <p class="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
-              <button class="bg-[#f68d38] h-10 w-10 text-white text-xs mt-2 ml-52 z-20 absolute bg-orange-400 rounded-full border-white border-4 text-center font-semibold">
+              <p className="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
+              <button className="bg-[#f68d38] h-10 w-10 text-white text-xs mt-2 ml-52 z-20 absolute bg-orange-400 rounded-full border-white border-4 text-center font-semibold">
                 +
               </button>
             </div>
-            <div class="h-full w-[270px] border-r border-gray-200 flex-0">
+            <div className="h-full w-[270px] border-r border-gray-200 flex-0">
               <img
                 src="metod2.png"
                 alt="konxhult"
-                class="w-[200px] mx-auto mt-2"
+                className="w-[200px] mx-auto mt-2"
               />
-              <h3 class="text-left font-semibold text-sm mx-5">
+              <h3 className="text-left font-semibold text-sm mx-5">
                 Kitchen Solid Wood
               </h3>
-              <p class="font-thin text-gray-800 text-xs mx-5">
+              <p className="font-thin text-gray-800 text-xs mx-5">
                 Width: 220.0 cm, System Depth: 61.0 cm. Height: 220.0 cm
               </p>
-              <p class="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
-              <button class="bg-[#f68d38] h-10 w-10 text-white text-xs mt-2 ml-52 z-20 absolute bg-orange-400 rounded-full border-white border-4 text-center font-semibold">
+              <p className="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
+              <button className="bg-[#f68d38] h-10 w-10 text-white text-xs mt-2 ml-52 z-20 absolute bg-orange-400 rounded-full border-white border-4 text-center font-semibold">
                 +
               </button>
             </div>
-            <div class="h-full w-3/12 border-r border-gray-200 flex-0">
+            <div className="h-full w-3/12 border-r border-gray-200 flex-0">
               <img
                 src="metod3.png"
                 alt="konxhult"
-                class="w-[200px] mx-auto mt-2"
+                className="w-[200px] mx-auto mt-2"
               />
-              <h3 class="text-left font-semibold text-sm mx-5">
+              <h3 className="text-left font-semibold text-sm mx-5">
                 Kitchen Solid Wood
               </h3>
-              <p class="font-thin text-gray-800 text-xs mx-5">
+              <p className="font-thin text-gray-800 text-xs mx-5">
                 Width: 220.0 cm, System Depth: 61.0 cm. Height: 220.0 cm
               </p>
-              <p class="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
-              <button class="bg-[#f68d38] h-10 w-10 text-white text-xs mt-2 ml-40 z-20 absolute bg-orange-400 rounded-full border-white border-4 text-center font-semibold">
+              <p className="mx-5 text-sm mt-2 font-bold pr-12">$ 429.99</p>
+              <button className="bg-[#f68d38] h-10 w-10 text-white text-xs mt-2 ml-40 z-20 absolute bg-orange-400 rounded-full border-white border-4 text-center font-semibold">
                 +
               </button>
             </div>
           </div>
         </div>
-        <main class="flex-auto flex -z-10 h-[460px]">
-          <span class="ml-52 mt-16 bg-transparent w-6/12 absolute flex">
+        <main className="flex-auto flex -z-10 h-[460px]">
+          <span className="ml-52 mt-16 bg-transparent w-6/12 absolute flex">
             <img
               src="../img/maruti.jpeg"
               alt="foto"
-              class="w-[480px] h-[340px] mt-44 ml-4"
+              className="w-[480px] h-[340px] mt-44 ml-4"
             />
-            <p class="px-4 py-2 bg-[#f68d38] h-8 w-32 text-white text-[0.6rem] font-medium -rotate-90 -ml-12 mt-[340px]">
+            <p className="px-4 py-2 bg-[#f68d38] h-8 w-32 text-white text-[0.6rem] font-medium -rotate-90 -ml-12 mt-[340px]">
               ALWAYS THE BEST
             </p>
           </span>
 
-          <aside class="w-left-f border-r bg-gradient-to-t from-[#f6af77] to-[#f4cda6]"></aside>
-          <section class="py-56 flex-auto bg-gradient-to-t from-[#ffffff] to-[#fbfbfb]">
-            <div class="ml-96 w-96 mt-10">
-              <p class="text-lg font-semibold">What we offer</p>
-              <p class="text-xs font-thin leading-5 pt-2 pb-5">
+          <aside className="w-left-f border-r bg-gradient-to-t from-[#f6af77] to-[#f4cda6]"></aside>
+          <section className="py-56 flex-auto bg-gradient-to-t from-[#ffffff] to-[#fbfbfb]">
+            <div className="ml-96 w-96 mt-10">
+              <p className="text-lg font-semibold">What we offer</p>
+              <p className="text-xs font-thin leading-5 pt-2 pb-5">
                 Lorem ipsum dolor sit amet, consectetur elit adipisicing . Amet
                 corporis cum delectus illum itaque modi omnis quaerat temporibus
                 totam!
               </p>
-              <p class="text-xs flex place-items-center mb-7">
+              <p className="text-xs flex place-items-center mb-7">
                 <svg
-                  class="fill-amber-500 rounded-full border-white border-4 bg-white mr-3"
+                  className="fill-amber-500 rounded-full border-white border-4 bg-white mr-3"
                   xmlns="http://www.w3.org/2000/svg"
                   height="30px"
                   viewBox="0 0 24 24"
@@ -299,7 +294,7 @@ export default function Home() {
                 </svg>
                 Detalled design
                 <svg
-                  class="fill-amber-500 rounded-full border-white border-4 bg-white mr-3 ml-10"
+                  className="fill-amber-500 rounded-full border-white border-4 bg-white mr-3 ml-10"
                   xmlns="http://www.w3.org/2000/svg"
                   height="30px"
                   viewBox="0 0 24 24"
@@ -315,9 +310,9 @@ export default function Home() {
                 </svg>
                 Pexble meeting schedules
               </p>
-              <p class="text-xs flex place-items-center mb-7">
+              <p className="text-xs flex place-items-center mb-7">
                 <svg
-                  class="fill-amber-500 rounded-full border-white border-4 bg-white mr-2"
+                  className="fill-amber-500 rounded-full border-white border-4 bg-white mr-2"
                   xmlns="http://www.w3.org/2000/svg"
                   height="30px"
                   viewBox="0 0 24 24"
@@ -329,7 +324,7 @@ export default function Home() {
                 </svg>
                 On time delivery
                 <svg
-                  class="fill-amber-500 rounded-full border-white border-4 bg-white mr-3 ml-10"
+                  className="fill-amber-500 rounded-full border-white border-4 bg-white mr-3 ml-10"
                   xmlns="http://www.w3.org/2000/svg"
                   height="30px"
                   viewBox="0 0 24 24"
@@ -345,82 +340,82 @@ export default function Home() {
                 </svg>
                 Agreement
               </p>
-              <button class="bg-[#f68d38] h-8 w-32 text-white text-xs font-medium">
+              <button className="bg-[#f68d38] h-8 w-32 text-white text-xs font-medium">
                 Read More
               </button>
             </div>
           </section>
         </main>
-        <div class="flex bg-[#fefefe] w-full h-[425px] mt-20 bg-[#ffffff] z-10">
-          <div class="ml-[228px] w-96 mt-40">
-            <h1 class="text-xl font-semibold">Avanity Lexington V60</h1>
-            <p class="text-xs font-thin pt-2 pb-5">
+        <div className="flex bg-[#fefefe] w-full h-[425px] mt-20 bg-[#ffffff] z-10">
+          <div className="ml-[228px] w-96 mt-40">
+            <h1 className="text-xl font-semibold">Avanity Lexington V60</h1>
+            <p className="text-xs font-thin pt-2 pb-5">
               Lorem ipsum dolor sit amet, consectetur elit adipisicing . Amet
               corporis cum delectus illum itaque modi omnis quaerat temporibus
               totam!
             </p>
-            <span class="text-sm font-semibold">Color:</span>
-            <button class="h-6 w-6 bg-[#573c39] rounded-full border-white border-4 p-2 pb-1"></button>
-            <button class="h-6 w-6 bg-[#e5a2a4] rounded-full border-white border-4 p-2 pb-1"></button>
-            <div class="flex items-center w-full pt-5">
-              <p class="font-bold text-red-500 pr-6 line-through">$ 1,122,00</p>
-              <p class="font-bold pr-16 text-xl">$ 980.00</p>
-              <button class="bg-[#f68d38] h-8 w-32 text-white text-xs font-medium">
+            <span className="text-sm font-semibold">Color:</span>
+            <button className="h-6 w-6 bg-[#573c39] rounded-full border-white border-4 p-2 pb-1"></button>
+            <button className="h-6 w-6 bg-[#e5a2a4] rounded-full border-white border-4 p-2 pb-1"></button>
+            <div className="flex items-center w-full pt-5">
+              <p className="font-bold text-red-500 pr-6 line-through">$ 1,122,00</p>
+              <p className="font-bold pr-16 text-xl">$ 980.00</p>
+              <button className="bg-[#f68d38] h-8 w-32 text-white text-xs font-medium">
                 Add To Cart
               </button>
             </div>
           </div>
-          <div class="ml-28 flex">
+          <div className="ml-28 flex">
             <img
-              class="w-[500px] h-[500px] z-0"
+              className="w-[500px] h-[500px] z-0"
               src="AVA.png "
               alt="ava"
             />
-            <p class="h-32 w-32 mt-18 -ml-18 bg-orange-400 rounded-full border-white border-4 text-center pt-1.5 text-white text-sm font-semibold">
+            <p className="h-32 w-32 mt-18 -ml-18 bg-orange-400 rounded-full border-white border-4 text-center pt-1.5 text-white text-sm font-semibold">
               % <br />
               On Sale
             </p>
           </div>
         </div>
-        <main class="flex-auto flex -z-10 h-[460px] overflow-x-hidden">
-          <span class="pl-[230px] mt-36 bg-transparent w-full absolute flex">
-            <div class="h-[270px] w-[310px] bg-white border border-r-2 mr-4 border-t-2">
+        <main className="flex-auto flex -z-10 h-[460px] overflow-x-hidden">
+          <span className="pl-[230px] mt-36 bg-transparent w-full absolute flex">
+            <div className="h-[270px] w-[310px] bg-white border border-r-2 mr-4 border-t-2">
               <img
-                class="w-[230px] h-[230px] mx-auto mb-5"
+                className="w-[230px] h-[230px] mx-auto mb-5"
                 src="Brend.png"
                 alt="brend"
               />
-              <h4 class="text-center text-base font-semibold -mt-5">
+              <h4 className="text-center text-base font-semibold -mt-5">
                 Bath Cabinets
               </h4>
             </div>
-            <div class="h-[270px] w-[310px] bg-white border border-r-2 mr-4 border-t-2">
+            <div className="h-[270px] w-[310px] bg-white border border-r-2 mr-4 border-t-2">
               <img
-                class="w-[200px] h-[200px] mx-auto mb-5 mt-7"
+                className="w-[200px] h-[200px] mx-auto mb-5 mt-7"
                 src="harware.png"
                 alt="brend"
               />
-              <h4 class="text-center text-base font-semibold -mt-5">
+              <h4 className="text-center text-base font-semibold -mt-5">
                 Bathroom Accessories
               </h4>
             </div>
-            <div class="h-[270px] w-[310px] bg-white border border-r-2 border-t-2">
+            <div className="h-[270px] w-[310px] bg-white border border-r-2 border-t-2">
               <img
-                class="w-[180px] h-[180px] mx-auto mb-5 mt-9"
+                className="w-[180px] h-[180px] mx-auto mb-5 mt-9"
                 src="cable.png"
                 alt="brend"
               />
-              <h4 class="text-center text-base font-semibold -mt-3">
+              <h4 className="text-center text-base font-semibold -mt-3">
                 Cabinet Hardware
               </h4>
             </div>
           </span>
-          <aside class="w-left-f border-r bg-gradient-to-t from-[#f6af77] to-[#f4cda6] flex justify-center">
-            <h2 class="text-lg font-semibold ml-[220px] mt-6 mt-24">
+          <aside className="w-left-f border-r bg-gradient-to-t from-[#f6af77] to-[#f4cda6] flex justify-center">
+            <h2 className="text-lg font-semibold ml-[220px] mt-6 mt-24">
               Other Product
             </h2>
-            <div class="w-32 ml-6 mt-[70px]">
-              <button class="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6">
+            <div className="w-32 ml-6 mt-[70px]">
+              <button className="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
@@ -432,7 +427,7 @@ export default function Home() {
                   <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z" />
                 </svg>
               </button>
-              <button class="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6 mr-3">
+              <button className="bg-[#fffefc] border-gray-200 rounded-full border-white border-4 mt-6 mr-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
@@ -446,105 +441,105 @@ export default function Home() {
               </button>
             </div>
           </aside>
-          <section class="py-56 flex-auto bg-gradient-to-t from-[#fefefe] to-[#ffffff]"></section>
+          <section className="py-56 flex-auto bg-gradient-to-t from-[#fefefe] to-[#ffffff]"></section>
         </main>
-        <div class="flex bg-[#fefefe] w-full h-[350px] bg-[#fcfcfc] z-10">
-          <div class="ml-[228px] mr-32 mt-20">
-            <p class="pb-5 font-bold">Navigate</p>
-            <ul class="leading-7">
+        <div className="flex bg-[#fefefe] w-full h-[350px] bg-[#fcfcfc] z-10">
+          <div className="ml-[228px] mr-32 mt-20">
+            <p className="pb-5 font-bold">Navigate</p>
+            <ul className="leading-7">
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Contact Us
                 </a>
               </li>
             </ul>
           </div>
-          <div class="mr-32 mt-20">
-            <p class="pb-5 font-bold">Categories</p>
-            <ul class="leading-7">
+          <div className="mr-32 mt-20">
+            <p className="pb-5 font-bold">Categories</p>
+            <ul className="leading-7">
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Bath Cabinets
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Bath Accessories
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Cabinet Doors
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Cabinet Drawers
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Cabinet Hardware
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Cabinet Parts
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Cabinet
                 </a>
               </li>
             </ul>
           </div>
-          <div class="mt-20">
-            <p class="pb-5 font-bold">Collection</p>
-            <ul class="leading-7">
+          <div className="mt-20">
+            <p className="pb-5 font-bold">Collection</p>
+            <ul className="leading-7">
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Capitals
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Collumna
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Wine Storage
                 </a>
               </li>
               <li>
-                <a href="#" class="font-thin text-sm">
+                <a href="#" className="font-thin text-sm">
                   Bath Cabinets
                 </a>
               </li>
             </ul>
           </div>
-          <div class="w-56 h-32 ml-52 mt-20">
-            <p class="text-right pb-5 font-bold">
+          <div className="w-56 h-32 ml-52 mt-20">
+            <p className="text-right pb-5 font-bold">
               408 US Highway 46 <br />
               Dover. NJ 07801
             </p>
-            <p class="text-right font-thin text-sm leading-6">
+            <p className="text-right font-thin text-sm leading-6">
               hello@websitedepot.co <br />
               +973-794-6310
             </p>
