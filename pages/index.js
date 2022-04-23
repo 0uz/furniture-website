@@ -114,7 +114,7 @@ export default function Home() {
         </div>
         <main className="flex-auto flex w-full">
           <div className="ml-52 mt-16 bg-transparent w-6/12 absolute">
-            <img src="metod2.png" alt="foto" />
+            <img src="images/metod2.png" alt="foto" />
           </div>
 
           <aside className="w-left-f border-r bg-gradient-to-t from-[#f6af77] to-[#f4cda6]">
@@ -191,7 +191,7 @@ export default function Home() {
           <div className="bg-[#ffffff] border-gray-200 border w-full h-80 mt-16 flex overflow-x-auto overflow-y-hidden">
             <div className="h-full w-[270px] h-full border-r border-gray-200 flex-0">
               <img
-                src="knoxhult2.png"
+                src="images/knoxhult2.png"
                 alt="konxhult"
                 className="w-[200px] mx-auto mt-2"
               />
@@ -208,7 +208,7 @@ export default function Home() {
             </div>
             <div className="h-full w-[270px] border-r border-gray-200 flex-0">
               <img
-                src="knoxhult.png"
+                src="images/knoxhult.png"
                 alt="konxhult"
                 className="w-[200px] mx-auto mt-2"
               />
@@ -225,7 +225,7 @@ export default function Home() {
             </div>
             <div className="h-full w-[270px] border-r border-gray-200 flex-0">
               <img
-                src="metod2.png"
+                src="images/metod2.png"
                 alt="konxhult"
                 className="w-[200px] mx-auto mt-2"
               />
@@ -242,7 +242,7 @@ export default function Home() {
             </div>
             <div className="h-full w-3/12 border-r border-gray-200 flex-0">
               <img
-                src="metod3.png"
+                src="images/metod3.png"
                 alt="konxhult"
                 className="w-[200px] mx-auto mt-2"
               />
@@ -262,7 +262,7 @@ export default function Home() {
         <main className="flex-auto flex -z-10 h-[460px]">
           <span className="ml-52 mt-16 bg-transparent w-6/12 absolute flex">
             <img
-              src="../img/maruti.jpeg"
+              src="images/maruti.jpeg"
               alt="foto"
               className="w-[480px] h-[340px] mt-44 ml-4"
             />
@@ -368,7 +368,7 @@ export default function Home() {
           <div className="ml-28 flex">
             <img
               className="w-[500px] h-[500px] z-0"
-              src="AVA.png "
+              src="images/AVA.png "
               alt="ava"
             />
             <p className="h-32 w-32 mt-18 -ml-18 bg-orange-400 rounded-full border-white border-4 text-center pt-1.5 text-white text-sm font-semibold">
@@ -382,7 +382,7 @@ export default function Home() {
             <div className="h-[270px] w-[310px] bg-white border border-r-2 mr-4 border-t-2">
               <img
                 className="w-[230px] h-[230px] mx-auto mb-5"
-                src="Brend.png"
+                src="images/Brend.png"
                 alt="brend"
               />
               <h4 className="text-center text-base font-semibold -mt-5">
@@ -392,7 +392,7 @@ export default function Home() {
             <div className="h-[270px] w-[310px] bg-white border border-r-2 mr-4 border-t-2">
               <img
                 className="w-[200px] h-[200px] mx-auto mb-5 mt-7"
-                src="harware.png"
+                src="images/harware.png"
                 alt="brend"
               />
               <h4 className="text-center text-base font-semibold -mt-5">
@@ -402,7 +402,7 @@ export default function Home() {
             <div className="h-[270px] w-[310px] bg-white border border-r-2 border-t-2">
               <img
                 className="w-[180px] h-[180px] mx-auto mb-5 mt-9"
-                src="cable.png"
+                src="images/cable.png"
                 alt="brend"
               />
               <h4 className="text-center text-base font-semibold -mt-3">
